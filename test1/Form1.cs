@@ -12,8 +12,13 @@ namespace test1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
             label1.Text = DotNetEnv.Env.GetString("TEST_TEEST", "Variable not found");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
